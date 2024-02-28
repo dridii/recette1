@@ -1,0 +1,90 @@
+.frm {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%; /* Make the image round */
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 250px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: rgb(247, 244, 245); /* Set the desired background color */
+  background-position: 0% 0%;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: none;
+}
+.prt {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%; /* Make the image round */
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 610px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: rgb(247, 244, 245); /* Set the desired background color */
+  background-position: 0% 0%;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: none;
+}
+.msl {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%; /* Make the image round */
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 1000px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: rgb(247, 244, 245); /* Set the desired background color */
+  background-position: 0% 0%;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: none;
+}
+.btn {
+  color: rgb(215, 169, 189);
+  border-color: black;
+  padding: 14px;
+}
+.tn {
+  color: rgb(215, 169, 189);
+  border-color: black;
+  padding: 14px;
+}
+.lugu {
+  position: absolute;
+  width: 250px;
+  top: -15px;
+  right: 15px;
+}
+.fum {
+  font-size: 24px;
+  color: #ffa500; /* Couleur entre orange et vert */
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  position: absolute;
+  top: 500px;
+  width: 900px;
+  left:250px
+}
+.fum:hover{
+    color: #7fff00; /* Couleur verte au survol */
+  transform: scale(1.1); /* Effet d'agrandissement */
+}

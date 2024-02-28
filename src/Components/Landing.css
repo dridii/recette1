@@ -1,4 +1,4 @@
-  .logo {
+  .logoo {
     width: 150px; 
     height: 150px; 
     border-radius: 50%;
@@ -31,16 +31,16 @@ word-spacing: 0px;
 top: 80px;
 position: relative;
 }
-.box{
+.boxx{
  font-family: 'IBM Plex Sans Fallback', 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
     word-spacing: 0px;
       background-color: #FFFFFF;
-    color: #FFFFFF;
+    color: #141414;
 }
-.box img{
+.boxx img{
     height: 150px;
     width: 200px;
     border-radius: 50%; /* Make the image round */

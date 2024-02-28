@@ -1,0 +1,63 @@
+.nrm{
+                height: 150px;
+    width: 200px;
+    border-radius: 50%; /* Make the image round */
+    position: absolute;
+    top: 200px;
+    bottom: 0px;
+    right: 0px;
+    left: 650px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: rgb(247, 244, 245); /* Set the desired background color */
+    background-position: 0% 0%;
+    transform: none;
+    transition: all 0s ease 0s;
+    outline: none;
+}
+.dd{
+                   height: 150px;
+    width: 200px;
+    border-radius: 50%; /* Make the image round */
+    position: absolute;
+    top: 200px;
+    bottom: 0px;
+    right: 0px;
+    left: 250px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: rgb(233, 230, 231); /* Set the desired background color */
+    background-position: 0% 0%;
+    transform: none;
+    transition: all 0s ease 0s;
+    outline: none;
+}
+.bd{
+                   height: 150px;
+    width: 200px;
+    border-radius: 50%; /* Make the image round */
+    position: absolute;
+    top: 200px;
+    bottom: 0px;
+    right: 0px;
+    left: 1050px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: rgb(233, 230, 231); /* Set the desired background color */
+    background-position: 0% 0%;
+    transform: none;
+    transition: all 0s ease 0s;
+    outline: none; 
+}
+.lugu{
+    position: absolute;
+    width: 150px;
+    top:-15px;
+    right: 15px
+}

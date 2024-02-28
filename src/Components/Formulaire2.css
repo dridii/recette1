@@ -1,0 +1,252 @@
+.ff {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%; /* Make the image round */
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 250px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: rgb(247, 244, 245); /* Set the desired background color */
+  background-position: 0% 0%;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: none;
+}
+.mm {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%; /* Make the image round */
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 650px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: rgb(247, 244, 245); /* Set the desired background color */
+  background-position: 0% 0%;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: none;
+}
+.gg {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%; /* Make the image round */
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 1050px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: rgb(247, 244, 245); /* Set the desired background color */
+  background-position: 0% 0%;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: none;
+}
+.ph {
+  height: 250px;
+  position: relative;
+  top: -80px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: #f0ecec;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add this line */
+}
+.box:hover {
+  background-color: rgb(237, 190, 211);
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #333;
+}
+
+.ppp {
+  color: #666;
+  position: relative;
+  text-align: left; /* Aligner le texte à gauche */
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: -30px;
+  right: 15px;
+  top: -10px;
+  position: absolute;
+}
+.cp {
+  position: relative;
+  right: 300px;
+  width: 200px;
+  height: 350px;
+  top: 80px;
+}
+.box-containerr {
+  position: relative;
+  left: 600px;
+  top: -230px;
+  width: 500px;
+}
+.lg {
+  position: relative;
+  width: 150px;
+  top: -250px;
+  left: 670px;
+}
+.lgg {
+  position: relative;
+  width: 150px;
+  top: -200px;
+  left: 640px;
+}
+.box-containerrr {
+  position: relative;
+  left: 460px;
+  top: -140px;
+}
+
+.box-containeerrr {
+  position: relative;
+  left: 450px;
+  top: -50px;
+}
+
+.lggg {
+  position: relative;
+  width: 150px;
+  top: -70px;
+  left: 650px;
+}
+.lgggg {
+  position: relative;
+  width: 150px;
+  top: -200px;
+  left: 650px;
+}
+.lggggl {
+  position: relative;
+  width: 150px;
+  top: -200px;
+  left: 650px;
+}
+.lugu {
+  position: absolute;
+  width: 150px;
+  top: -15px;
+  right: 15px;
+}
+.lggggll {
+  position: absolute;
+  width: 150px;
+  top: -15px;
+  right: 15px;
+}
+.put {
+  width: 380px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+  position: relative;
+  left: 218px;
+}
+input:focus,
+input:hover {
+  border-color: #1f5830;
+  outline: none;
+}
+input::placeholder {
+  color: #999;
+}
+
+.textbox-container {
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 390px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  position: absolute;
+  left: 520px;
+}
+
+.textbox-content {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+.recette-card {
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 1300px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.recette-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nameR {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.etape1,
+.etape2 {
+  margin-bottom: 15px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.recette-card h3 {
+  font-size: 24px;
+  color: #22ac42; /* Couleur de base (proche du vert) */
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.recette-card h3:hover {
+  color: #ffc107; /* Couleur au survol (jaune) */
+ 
+}

@@ -1,0 +1,37 @@
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px; /* Ajout de marge horizontale */
+}
+
+.about-box {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  margin: 0 10px; /* Ajout d'un espace entre les boîtes */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-box:hover {
+  transform: scale(1.05);
+}
+
+.about-box img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.about-box h3 {
+  font-size: 1.8rem; /* Ajustement de la taille de la police */
+  margin-bottom: 10px;
+}
+
+.about-box p {
+  color: #555;
+}

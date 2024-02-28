@@ -14,14 +14,14 @@ export default function SideBar({ isOpen, toggleSidebar }) {
             navige("/Femme");
           }}
         >
-          Woman
+          About Us
         </li>
         <li
           onClick={() => {
             navige("/Homme");
           }}
         >
-          Men
+          Contact Us
         </li>
       
       </ul>
